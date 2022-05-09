@@ -15,27 +15,25 @@ export default function Menu(){
            </div>
            <div className="itens-inicio">
                 <ul>
-                    <li><a href="#">
+                    <li className="li-item"><Link className="a" to="/">
                         <span className='icon'>
                             <IoMdDownload/>
                         </span>
-                    DOWNLOAD DE ARQUIVOS</a></li>
+                    DOWNLOAD DE ARQUIVOS</Link></li>
 
-                    <li><a href="#">
+                    <li className="li-item"><Link className="a" to="/">
                         <span className='icon'>
                             <AiFillFilePdf/>
                         </span>
-                    CONSULTAS</a></li>                                                
-                </ul>
-           </div>
-           <div className="saida">
-                <ul className="saida-ul">
-                    <span className='icon-saida'>
-                        <IoMdExit/>
-                    </span>
-                    <li><Link to="/">
-                        SAIR</Link></li>
-                </ul>
+                    CONSULTAS</Link></li>     
+
+                    <li className="li-saida">
+                        <Link className="a" to="/">SAIR
+                            <span className='icon-saida'>
+                                <IoMdExit/>
+                            </span>
+                        </Link></li>
+                </ul>                                             
            </div>
            <main>
                   <Routes>
