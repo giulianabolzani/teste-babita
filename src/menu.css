@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS 2', sans-serif;
+}
+  
+nav{
+    height: 80px;
+    background:  rgb(6, 118, 223);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo .imgLogo{
+    display: flex;
+    height: 75px;
+    width: 75px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li{
+    width: 270px;
+}
+
+.itens-inicio ul li a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.icon{
+    color: rgb(253, 253, 253);
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.saida{
+    padding-top: 15px;
+    padding-left: 100vh;
+}
+
+.saida .saida-ul li a{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+.saida-ul{
+    display: inline;
+}
+.icon-saida{
+    display: inline;
+    padding-left: 5px; 
+    color: rgb(252, 252, 252);
+}
